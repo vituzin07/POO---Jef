@@ -1,0 +1,35 @@
+//Exercicio 03//
+class Pessoa{
+  nome: string;
+  exibirnome() {
+    console.log(this.nome)
+  }
+  idade: number;
+  exibiridade() {
+    console.log(this.idade)
+  }
+  nacionalidade: string;
+  exibirnacionalidade(){
+    console.log(this.nacionalidade)
+  }
+  peso:number;
+  exibirpeso(){
+    console.log(this.peso + " KG")
+  }
+  altura:number;
+  exibiraltura(){
+    console.log(this.altura + " M")
+  }
+}
+
+let newPessoa = new Pessoa (); 
+newPessoa.nome = "Victor"
+newPessoa.idade = 20
+newPessoa.nacionalidade = "Brasileiro"
+newPessoa.peso = 70 
+newPessoa.altura = 1.73 
+newPessoa.exibirnome()
+newPessoa.exibiridade()
+newPessoa.exibirnacionalidade()
+newPessoa. exibirpeso()
+newPessoa.exibiraltura()
